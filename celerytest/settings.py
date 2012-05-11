@@ -9,6 +9,7 @@ root = lambda * x: os.path.join(os.path.abspath(PROJECT_ROOT), *x)
 
 from socket import gethostname
 HOSTNAME = gethostname()
+print HOSTNAME
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
